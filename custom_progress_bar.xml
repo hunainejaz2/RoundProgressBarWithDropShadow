@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="ring"
+            android:thicknessRatio="16"
+            android:useLevel="false">
+            <gradient
+                android:centerColor="@color/ProgressBarInsideColor"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:endColor="@color/ProgressBarInsideColor"
+                android:gradientRadius="75%p"
+                android:startColor="@color/black"
+                android:type="radial" />
+
+        </shape>
+    </item>
+    <item
+        android:width="12.5dp"
+        android:height="12dp"
+        android:left="93dp"
+        android:top="21dp">
+
+        <shape
+            android:shape="oval"
+            android:useLevel="false">
+            <solid android:color="@color/purplePrimary" />
+
+        </shape>
+
+
+    </item>
+    <item android:id="@android:id/progress"
+        >
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+            <shape
+                android:shape="ring"
+                android:thicknessRatio="16"
+
+                android:useLevel="true">
+                <solid android:color="@color/purplePrimary" />
+            </shape>
+        </rotate>
+
+
+    </item>
+
+
+</layer-list>
