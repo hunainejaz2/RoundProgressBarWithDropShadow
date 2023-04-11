@@ -1,0 +1,21 @@
+ // This layout file
+
+                      <ProgressBar
+                        android:id="@+id/progress_Bar"
+                        style="@style/CircularDeterminateProgressBar"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_centerInParent="true"
+                        android:indeterminate="false"
+                        android:indeterminateDrawable="@drawable/my_loader"
+                        android:progress="41" />
+                        
+                        
+// implement this Style into Theme.xml
+
+
+  <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/custom_progress_bar</item>
+
+  </style>
