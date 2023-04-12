@@ -6,10 +6,10 @@
             android:thicknessRatio="16"
             android:useLevel="false">
             <gradient
-                android:centerColor="@color/ProgressBarInsideColor"
+                android:centerColor="#EBEEF7"
                 android:centerX="50%"
                 android:centerY="50%"
-                android:endColor="@color/ProgressBarInsideColor"
+                android:endColor="#EBEEF7"
                 android:gradientRadius="75%p"
                 android:startColor="@color/black"
                 android:type="radial" />
@@ -25,7 +25,7 @@
         <shape
             android:shape="oval"
             android:useLevel="false">
-            <solid android:color="@color/purplePrimary" />
+            <solid android:color="#7070ED" />
 
         </shape>
 
@@ -41,7 +41,7 @@
                 android:thicknessRatio="16"
 
                 android:useLevel="true">
-                <solid android:color="@color/purplePrimary" />
+                <solid android:color="#7070ED" />
             </shape>
         </rotate>
 
