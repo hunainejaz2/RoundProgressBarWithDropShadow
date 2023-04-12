@@ -1,4 +1,4 @@
-# CircleProgressWithDropShadow
+# RoundProgressBarWithDropShadow
 Create Round Progress Bar with inner side drop shadow
 
 1-- Create a new drawable Resourse file in drawable folder.
@@ -14,6 +14,7 @@ Create Round Progress Bar with inner side drop shadow
 6-- Now add the "Shape" Tag in Background item.
     In shape tag add "shape" attribute and give "ring" shape for round shape of progress bar.
     Now add "ThicknessRatio" attribute to shape tag.ThicknessRatio can adjust Ratio of radius of Circle.
-    Than add last attribute which is "use Level".Use Level can get boolean value.if value is true its mean that the shape can move as the value of progress increase
-7-- Add "Gradient" tag in shape     
+    Than add last attribute which is "use Level".Use Level can get boolean value.if value is true its mean that the shape can move as the value of progress     increase.
+    
+7-- Add "Gradient" tag in shape.
     
