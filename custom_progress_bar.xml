@@ -16,21 +16,7 @@
 
         </shape>
     </item>
-    <item
-        android:width="12.5dp"
-        android:height="12dp"
-        android:left="93dp"
-        android:top="21dp">
-
-        <shape
-            android:shape="oval"
-            android:useLevel="false">
-            <solid android:color="#7070ED" />
-
-        </shape>
-
-
-    </item>
+    
     <item android:id="@android:id/progress"
         >
         <rotate
